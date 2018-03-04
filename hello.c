@@ -1,6 +1,7 @@
 #include<stdio.h>
 void microkernel_sendmsg(char *);
 void main(){
+ printf("2+2=4\n");
  printf("Helloworld!\n"); 
  printf("This must be a monolithic design\n");
   microkernel_sendmsg("is more portable");
